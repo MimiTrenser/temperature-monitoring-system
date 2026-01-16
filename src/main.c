@@ -48,7 +48,7 @@ int main()
     int8_t cTemperature = 0;
     while(1)
     {
-        cTemperature = get_temperature();
+        cTemperature = getTemperature();
         display(cTemperature);
         sleep(INTERVAL_TIME);
     }

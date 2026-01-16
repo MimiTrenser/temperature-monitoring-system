@@ -24,7 +24,7 @@
 //Return  : The generated temperature value (-20 to 120).
 //Notes   : Simulated via rand(); depends on TemperatureLowerBound and TemperatureUpperBound 
 //****************************************************************************************** 
-int8_t get_temperature()
+int8_t getTemperature()
 {
     int8_t cTemperature = 0;
     cTemperature = (TEMPERATURE_LOWERBOUND + rand() % 141); /* Genereate random values from 0 to 120 */

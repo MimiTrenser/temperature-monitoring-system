@@ -14,6 +14,6 @@
 
 #include <stdint.h>
 
-int8_t get_temperature();
+int8_t getTemperature();
 
 #endif
