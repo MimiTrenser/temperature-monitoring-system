@@ -1,6 +1,6 @@
 //************************* Temparature Monitoring System **********************
-//  Copyright (c) 2026 Trenser Technology Solutions (P) Ltd  
-//  All Rights Reserved 
+// Copyright (c) 2026 Trenser Technology Solutions (P) Ltd  
+// All Rights Reserved 
 //******************************************************************************
 // 
 // Summary    : The objective is to develop a Temperature monitoring embedded 

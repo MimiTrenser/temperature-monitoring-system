@@ -1,6 +1,6 @@
-//*********************** Temperature Monitoring System ***********************
-//  Copyright (c) 2026 Trenser Technology Solutions (P) Ltd 
-//  All Rights Reserved 
+//*********************** Temperature Monitoring System ************************
+// Copyright (c) 2026 Trenser Technology Solutions (P) Ltd 
+// All Rights Reserved 
 //****************************************************************************** 
 // 
 // File    : main.c 
