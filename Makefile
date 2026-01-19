@@ -1,6 +1,7 @@
 # Compiler and flags
 CC       := gcc
-CFLAGS   := -Wall -Wextra -Wpedantic -std=c11 -O0 -g -fstack-usage -pthread -Iinclude -MMD -MP #
+INCLUDES := -I./include
+CFLAGS   := -Wall -Wextra -Wpedantic -std=c11 -O0 -g -fstack-usage -pthread $(INCLUDES) -MMD -MP 
 LDFLAGS  :=
 
 # Project structure
@@ -21,7 +22,7 @@ all: $(TARGET)
 # Link the final executable
 $(TARGET): $(OBJ)
 	@mkdir -p $(BUILD_DIR)
-	$(CC) $(OBJ) -o $(TARGET) $(LDFLAGS)
+	$(CC) $(CFLAGS) $(OBJ) -o $(TARGET) $(LDFLAGS)
 
 # Compile source files into object files (and generate .d dependency files)
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
